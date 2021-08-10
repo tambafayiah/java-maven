@@ -23,7 +23,7 @@ public class AppTest
     @Test
     public void twoAndZeroIsTwo() throws Exception {
         final long result = new App().add(2, 0);
-        assertThat(result, is(3L));
+        assertThat(result, is(2L));
     }
 
     @Test
